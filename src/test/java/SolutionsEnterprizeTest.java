@@ -15,7 +15,7 @@ public class SolutionsEnterprizeTest {
     }
 
     @Test
-    void enterprisePageTest() {
+    void EnterprisePageTest() {
         open("https://github.com/");
         $(".HeaderMenu-wrapper").$(byText("Solutions")).hover();
         $(byTagAndText("a", "Enterprises")).click();
